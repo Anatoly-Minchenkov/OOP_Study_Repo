@@ -1,0 +1,12 @@
+type: code
+custom_name: Programming
+files:
+- name: task.py
+  visible: true
+  text: '# здесь пишется программа'
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 01 Nov 2022 23:11:55 UTC"
+record: -1

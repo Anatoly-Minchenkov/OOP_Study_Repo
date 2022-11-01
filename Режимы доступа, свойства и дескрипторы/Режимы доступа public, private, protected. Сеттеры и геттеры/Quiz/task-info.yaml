@@ -1,0 +1,27 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: защищает приватные переменные от изменений (присвоить им значение можно только
+    один раз)
+- text: предостерегает программиста (использующего класс) от прямого использования
+    приватных атрибутов вне класса
+- text: приватные атрибуты класса автоматически становятся локальными свойствами объектов
+    этого класса
+- text: скрывает приватные переменные и методы от прямого доступа к ним (по исходным
+    именам) вне класса
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 01 Nov 2022 23:14:48 UTC"
+record: -1
+selected_options:
+- 1
+- 3
+local_check: false
