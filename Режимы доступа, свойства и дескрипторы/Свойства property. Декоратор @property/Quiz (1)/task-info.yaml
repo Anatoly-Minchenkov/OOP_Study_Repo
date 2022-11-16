@@ -1,11 +1,11 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: pr = property(); pr = pr.setter(set_pr); pr = pr.getter(get_pr); pr = pr.deleter(del_pr)
-- text: "pr = property(get_pr, set_pr)"
-- text: pr = property(get_pr)
 - text: pr = property(); pr = pr.setter(set_pr); pr = pr.getter(get_pr)
+- text: "pr = property(get_pr, set_pr)"
 - text: "pr = property(get_pr, set_pr, del_pr)"
+- text: pr = property(); pr = pr.setter(set_pr); pr = pr.getter(get_pr); pr = pr.deleter(del_pr)
+- text: pr = property(get_pr)
 files:
 - name: task.py
   visible: true
@@ -13,7 +13,16 @@ files:
     #  You can experiment here, it won’t be checked
 
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 10 Nov 2022 14:57:34 UTC"
 record: -1
+selected_options:
+- 0
+- 1
+- 2
+- 3
+- 4
 custom_name: Quiz
 local_check: false

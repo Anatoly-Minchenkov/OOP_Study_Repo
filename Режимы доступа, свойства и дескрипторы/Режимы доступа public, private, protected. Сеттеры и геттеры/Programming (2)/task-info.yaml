@@ -4,5 +4,5 @@ files:
 - name: task.py
   visible: true
   learner_created: false
-status: Unchecked
+status: Failed
 record: -1

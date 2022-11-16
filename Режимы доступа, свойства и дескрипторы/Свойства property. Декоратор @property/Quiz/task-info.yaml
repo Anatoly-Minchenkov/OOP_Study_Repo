@@ -3,14 +3,14 @@ is_multiple_choice: true
 options:
 - text: "в строчке money = property(get_money, set_money) создается объект-свойств\
     о с геттером get_money и сеттером set_money"
-- text: "в строчке money = property(get_money, set_money) создается объект-свойств\
-    о с геттером set_money и сеттером get_money"
+- text: в строчке m.money = 10 происходит вызов метода set_money и локальной переменной
+    __money присваивается значение 10
 - text: в строчке m.money = 10 происходит создание локального свойства money в объекте
     m с присвоением значения 10
 - text: для считывания информации из локальной переменной __money достаточно записать
     res = m.money
-- text: в строчке m.money = 10 происходит вызов метода set_money и локальной переменной
-    __money присваивается значение 10
+- text: "в строчке money = property(get_money, set_money) создается объект-свойств\
+    о с геттером set_money и сеттером get_money"
 - text: "если в программу после строчки m.money = 10 добавить строчку m.__dict__['money']\
     \ = 100, то при считывании значения res = m.money получим число 100"
 files:
@@ -20,6 +20,13 @@ files:
     #  You can experiment here, it won’t be checked
 
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 10 Nov 2022 14:55:23 UTC"
 record: -1
+selected_options:
+- 0
+- 1
+- 3
 local_check: false
