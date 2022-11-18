@@ -13,16 +13,16 @@ class TVProgram:
 
 class Telecast:
     def __init__(self, id, name, duartion):
-        self.__id = id
-        self.__name = name
-        self.__duration = duartion
+        self.uid = id
+        self.name = name
+        self.duration = duartion
     @property
     def uid(self):
         return self.__id
     @uid.setter
     def uid(self, id):
         if type(id) == int:
-            self.__id == id
+            self.__id = id
 
     @property
     def name(self):
@@ -31,7 +31,7 @@ class Telecast:
     @name.setter
     def name(self, name):
         if type(name) == str:
-            self.__name == name
+            self.__name = name
 
     @property
     def duration(self):
@@ -40,10 +40,10 @@ class Telecast:
     @duration.setter
     def duration(self, duration):
         if type(duration) == int:
-            self.__duration == duration
+            self.__duration = duration
 
 # pr = TVProgram("Первый канал")
-# pr.add_telecast(Telecast(1, "Доброе утро", 10000))
+# pr.add_telecast(Telecast(1, "Доброе утро", 100))
 # pr.add_telecast(Telecast(2, "Новости", 2000))
 # pr.add_telecast(Telecast(3, "Интервью с Балакиревым", 20))
 # for t in pr.items:
