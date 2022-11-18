@@ -1,3 +1,6 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+.course-info.yaml
+.course-remote-info.yaml
+.test_helper.py
