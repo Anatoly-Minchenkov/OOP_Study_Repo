@@ -4,5 +4,8 @@ files:
 - name: task.py
   visible: true
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 15 Dec 2022 17:34:19 UTC"
 record: -1

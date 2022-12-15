@@ -56,12 +56,13 @@ class Course:
 
 
 
-# lesson = LessonItem('tolik_lesson1', 22, 12)
-# print(lesson.title, lesson.practices, lesson.duration)
-# module = Module('tolik_module1')
-# module.add_lesson(lesson)
-# print(module.lessons)
-# cours = Course('tolik_course')
-# cours.add_module(module)
-# print(cours.modules[0].name)
-# print(cours.name)
+# course = Course("Python ООП")
+# module_1 = Module("Часть первая")
+# module_1.add_lesson(LessonItem("Урок 1", 7, 1000))
+# module_1.add_lesson(LessonItem("Урок 2", 10, 1200))
+# module_1.add_lesson(LessonItem("Урок 3", 5, 800))
+# course.add_module(module_1)
+# module_2 = Module("Часть вторая")
+# module_2.add_lesson(LessonItem("Урок 1", 7, 1000))
+# module_2.add_lesson(LessonItem("Урок 2", 10, 1200))
+# course.add_module(module_2)

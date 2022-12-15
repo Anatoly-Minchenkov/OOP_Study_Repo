@@ -16,5 +16,8 @@ files:
 
     # здесь продолжайте программу
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 06 Dec 2022 16:31:08 UTC"
 record: -1
